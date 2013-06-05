@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- setting app -->
+    <string name="app_name">Youread</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_settings_main">Settings</string>
+    <string name="on_action_bar"> menu </string>
+
+    <!-- name icon -->
+    <string name="avatar">Avatar</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- title activity -->
+    <string name="main"> Berita </string>
+    <string name="splash"> Splash Screen </string>
+    <string name="fst_saintek"> Saintek  </string>
+    <string name="daily_social"> Daily Social </string>
+    <string name="al_quran"> Al Quran </string>
+    <string name="tekno_journal"> Tekno Journal </string>
+    <string name="event"> Seminar dan Workshop </string>
+	
+    <!-- Youread -->
+    <string name="youread"> Tentang Youread </string>
+    <string name="image_youread"> Gambar Youread </string>
+    <string name="about_youread">Youread adalah aplikasi yang menampilkan berita dan acara yang ada 
+        difakultas saintek dan informasi lain yang ada di UIN Syarif Hidayatullah, selain itu ada 
+        fitur lain menampilkan berita meliputi jurusan yang ada difakultas saintek yaitu kimia, biologi,
+        fisika, matematika, teknik informatika, sistem informasi dan agribisnis, dan saat ini kami 
+        menyediakan berita untuk jurusan teknik informatika dan sistem informasi yaitu berita 
+        feed Tekno Journal, pada saat ini masih dalam tahap beta  </string>
+
+    <!-- Supported by -->
+    <string name="creator_by">Pengembang :</string>
+    <string name="my_email">subhan.nooriansyah@gmail.com</string>
+    <string name="supported_by">Pendukung : </string>
+    <string name="pusdatin">Pusdatin (Pusat Data Informasi) FST</string>
+
+    <!-- link rss feed -->
+    <string name="feed_daily_social">http://feeds.feedburner.com/dailysocial</string>
+    <string name="no_content"> tidak ada berita </string>
+
+    <!-- Profil Jurusan Fakultas Saintek -->
+    <string name="teknik_informatika"> Teknik Informatika </string>
+    <string name="sistem_informasi"> Sistem Informasi </string>
+    <string name="matematika"> Matematika </string>
+    <string name="biologi"> Biologi </string>
+    <string name="kimia"> Kimia </string>
+    <string name="fisika"> Fisika </string>
+    <string name="kerjasama"> Kerjasama FST UIN dengan FT UI </string>
+    <string name="pusdatin_link"> Pusdatin </string>
+    <string name="agribisnis"> Agribisnis </string>
+    <string name="magister_agribisnis"> Magister Agribisnis </string>
+    <string name="relation"> FST UIN dan FT UI </string>
+    
+    <!-- Sample text -->
+    <string name="sample_title"> Title </string>
+    <string name="sample_date"> Date </string>
+    <string name="sample_description"> Description </string>
+    <string name="sample_category"> Category </string>
+
+</resources>

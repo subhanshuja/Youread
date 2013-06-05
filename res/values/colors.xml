@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- background -->
+    <color name="background">#F9F9F9</color>
+    <color name="background_id">#F9F9F9</color>
+    <color name="background_selected">#F9F9F9</color>
+    <color name="background_separator_top_start">#073b6a</color>
+    <color name="background_separator_top_end">#0085ff</color>
+    <color name="background_separator_bottom">#69a8e2</color>
+    
+    <!-- action bar -->
+    <color name="actionbar_background_top">#0B7EF0</color>
+    <color name="actionbar_background_bottom">#DAE8F5</color>
+    <color name="actionbar_background_start">#33CCFF</color>
+    <color name="actionbar_background_end">#5BA6F2</color>
+    <color name="actionbar_text">#FBFEFE</color>
+	
+    <!-- view -->
+    <color name="text">#000000</color>
+    <color name="text_youread">#fcfefe</color>
+    <color name="text_icon">#03C0BE</color>
+    <color name="text_link">#4183C4</color>
+    <color name="text_highlight">#f5ee03</color>
+    <color name="text_news">#000000</color>
+    <color name="list_divider_top">#C2DCF7</color>
+    <color name="list_divider_bottom">#FAFCFC</color>
+    <color name="label_outer">#D0DBE7</color>
+    <color name="label_inner">#DBEBFC</color>
+    
+    <!-- color form actionbarsherlock holmes lib -->
+    <drawable name="ab_bg_black">#aa000000</drawable>
+    
+</resources>

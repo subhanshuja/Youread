@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="subhan.portal"
+    android:versionCode="5"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_youread"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        <activity
+            android:name="subhan.portal.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="subhan.portal.MainActivity"
+            android:label="@string/main" >
+        </activity>
+        <activity
+            android:name="subhan.portal.YoureadActivity"
+            android:label="@string/youread" >
+        </activity>
+        <activity
+            android:name="subhan.portal.saintek.SaintekActivity"
+            android:label="@string/fst_saintek" >
+        </activity>
+        <activity
+            android:name="subhan.portal.dailysocial.DailySocialActivity"
+            android:label="@string/daily_social" >
+        </activity>
+        <activity
+            android:name="subhan.portal.saintek.KimiaActivity"
+            android:label="@string/kimia" >
+        </activity>
+        <activity
+            android:name="subhan.portal.saintek.FisikaActivity"
+            android:label="@string/fisika" >
+        </activity>
+        <activity
+            android:name="subhan.portal.saintek.BiologiActivity"
+            android:label="@string/biologi" >
+        </activity>
+        <activity
+            android:name="subhan.portal.saintek.AgribisnisActivity"
+            android:label="@string/agribisnis" >
+        </activity>
+        <activity
+            android:name="subhan.portal.saintek.MatematikaActivity"
+            android:label="@string/matematika" >
+        </activity>
+        <activity
+            android:name="subhan.portal.saintek.SistemInformasiActivity"
+            android:label="@string/sistem_informasi" >
+        </activity>
+        <activity
+            android:name="subhan.portal.saintek.TeknikInformatikaActivity"
+            android:label="@string/teknik_informatika">
+        </activity>
+        <activity
+            android:name="subhan.portal.saintek.RelationshipActivity"
+            android:label="@string/relation">
+        </activity>
+        <activity
+            android:name="subhan.portal.news.NewsViewActivity"
+            android:label="@string/main">
+        </activity>
+        <activity
+            android:name="subhan.portal.dailysocial.NewsViewDSActivity"
+            android:label="@string/daily_social">
+        </activity>
+    </application>
+
+</manifest>

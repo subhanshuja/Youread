@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Jurusan">
+        <item> Teknik Informatika </item>
+        <item> Sistem Informasi </item>
+        <item> Agribisnis </item>
+        <item> Kimia </item>
+        <item> Biologi </item>
+        <item> Matematika </item>
+        <item> Fisika </item> 
+    </string-array>
+    
+    <string-array name="category">
+        <item> Beranda </item>
+        <item> Al Quran</item>
+        <item> Acara </item>
+        <item> DailySocial </item>
+ 	</string-array>
+</resources>

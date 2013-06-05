@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="Global">
+        <item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+	</style>
+	
+    <style name="AvatarActionBar">
+    	<item name="android:layout_width">28dp</item>
+    	<item name="android:layout_height">28dp</item>
+    </style>
+    
+    <style name="TextIcon">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/text_icon</item>
+    </style>
+
+    <style name="ListIcon" parent="TextIcon">
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="TitleText">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+    
+    <style name="ListTitleText" parent="TitleText"></style>
+    
+    <style name="ListView">
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:divider">@drawable/abs__list_divider_holo_light</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+    
+    <style name="HeaderListItem" parent="ListItem"></style>
+    
+    <style name="ListItem">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+    
+    <style name="Separator">
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/header_separator_background</item>
+    </style>
+
+    <style name="Spinner">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDuration">2000</item>
+        
+    </style>
+        
+    <style name="ListSpinner" parent="Spinner">
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_width">64dp</item>
+    </style>
+    
+    <style name="DropdownItem">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    	<item name="android:paddingBottom">10dp</item>
+    	<item name="android:paddingTop">10dp</item>
+    </style>
+    
+</resources>

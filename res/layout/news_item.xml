@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:padding="5dp" >
+    
+    <LinearLayout 
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+    
+        <!-- Title of News  -->
+		<TextView 
+		    android:id="@+id/title_news"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="14sp" 
+		    android:textStyle="bold"
+		    android:textColor="@color/text"
+		    />
+	
+		<!-- Date of News  -->
+		<TextView 
+		    android:id="@+id/date_news"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="12sp" 
+		    android:textStyle="bold"
+		    android:textColor="@color/text"
+		    android:layout_marginTop="2dp"
+		    />
+		
+    </LinearLayout>
+    
+	<!-- Arrow to Next Layer -->
+	<ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/chevron_default"
+	    android:contentDescription="@string/youread"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    />    
+</RelativeLayout>

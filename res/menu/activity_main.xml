@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item
+	    android:id="@+id/menu"
+	    android:icon="@drawable/ic_menu"
+	    android:showAsAction="ifRoom|withText">
+	    
+		<menu>   
+		    <item
+		        android:id="@+id/menu_fakultas_saintek"
+		        android:title="@string/fst_saintek"
+		        android:showAsAction="ifRoom|withText" />
+	    	<item
+		        android:id="@+id/menu_daily_social"
+		        android:title="@string/daily_social"
+		        android:showAsAction="ifRoom|withText" />
+	    	<item
+		        android:id="@+id/menu_tentang_youread"
+		        android:title="@string/youread"
+		        android:showAsAction="ifRoom|withText" />
+		</menu>
+	</item>
+	
+	<item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh"
+        android:showAsAction="ifRoom|withText" />
+</menu>
