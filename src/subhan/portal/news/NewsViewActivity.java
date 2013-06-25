@@ -75,18 +75,23 @@ public class NewsViewActivity extends SherlockActivity {
 		
 		Intent intent = getIntent();
 		String Title = intent.getStringExtra("title");
-		String Content = intent.getStringExtra("description");
+		String Description = intent.getStringExtra("description");
+		String Content = intent.getStringExtra("content");
 		String PubDate = intent.getStringExtra("pubdate");
 		String Author = intent.getStringExtra("author");
 		
 		TextView title = (TextView)findViewById(R.id.title_fst);
 		title.setText(Title.toString());
+		
 		TextView pubdate = (TextView)findViewById(R.id.pubdate_fst);
 		pubdate.setText(PubDate.toString());
+		
 		TextView description = (TextView)findViewById(R.id.description_fst);
-		description.setText(Html.fromHtml(Content.toString()));
-		/*TextView content = (TextView)findViewById(R.id.content_fst);
-		content.setText(Html.fromHtml(Content.toString()));*/
+		description.setText(Html.fromHtml(Description.toString()));
+		
+		TextView content = (TextView)findViewById(R.id.content_fst);
+		content.setText(Html.fromHtml(Content.toString()));
+		
 		TextView author = (TextView)findViewById(R.id.author_fst);
 		author.setText(Author.toString());
 		

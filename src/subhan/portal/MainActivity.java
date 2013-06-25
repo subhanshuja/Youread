@@ -58,6 +58,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.animation.Animation;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -66,6 +67,7 @@ import android.content.Context;
 import android.content.Intent;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuItem;
 
 public class MainActivity extends SherlockActivity {
 	
@@ -77,13 +79,14 @@ public class MainActivity extends SherlockActivity {
 	private ListView newsListView;
 	private com.actionbarsherlock.view.MenuItem refresh = null;
 	private ParserXML parserXML;
-	
+	public String test = "";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		newsListView = (ListView) findViewById(R.id.lv_news_main);
 		parserXML = new ParserXML();
+		
 		
 		newsListView
 		.setOnItemClickListener(new android.widget.AdapterView.OnItemClickListener() {
@@ -94,8 +97,8 @@ public class MainActivity extends SherlockActivity {
 				Log.i("title",aListRssItems.get(position).getItemTitle());
 				intent.putExtra("description",aListRssItems.get(position).getItemSummary());
 				Log.i("description",aListRssItems.get(position).getItemSummary());
-				/*intent.putExtra("content",aListRssItems.get(position).getItemContent());
-				Log.i("content",aListRssItems.get(position).getItemContent());*/
+				intent.putExtra("content",aListRssItems.get(position).getItemContent());
+				Log.i("content",aListRssItems.get(position).getItemContent());
 				intent.putExtra("pubdate",aListRssItems.get(position).getItemPubDate());
 				Log.i("pubdate",aListRssItems.get(position).getItemPubDate());
 				intent.putExtra("author",aListRssItems.get(position).getItemContributor());
@@ -121,7 +124,7 @@ public class MainActivity extends SherlockActivity {
 		return super.onCreateOptionsMenu(menu);
 	}
 	
-	public boolean onOptionsItemSelected(com.actionbarsherlock.view.MenuItem item) {
+	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case android.R.id.home:
 			/*super.finish();*/
