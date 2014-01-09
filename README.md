@@ -9,3 +9,6 @@ file apk = [Youread](https://www.dropbox.com/sh/2bjt76mrg4f38ry/rufE7kpLZh)
 
 this application used library : 
 [Actiobar Sherlock Holmes](https://github.com/JakeWharton/ActionBarSherlock)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/subhanshuja/youread/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
